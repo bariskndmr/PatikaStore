@@ -22,6 +22,7 @@ export default StyleSheet.create({
     },
     textsContainer : {
         marginHorizontal: 11,
+        marginVertical: 5,
     },
     title : {
         fontSize : 18,
@@ -30,9 +31,11 @@ export default StyleSheet.create({
     price : {
         fontSize: 16,
         fontWeight : '500',
-        color: '#808080'
+        color: '#808080',
     },
     stock : {
-
+        color: 'black',
+        fontSize : 16,
+        fontWeight: '500',
     },
 });

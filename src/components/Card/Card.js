@@ -3,7 +3,18 @@ import {View, Text, Image, SafeAreaView} from 'react-native';
 import styles from './Card.style';
 
 export default Card = ({products}) => {
-
+    const colorChange = () => {
+        if(products.inStock===true){
+            stock : {
+                color: 'black'
+            }
+        }
+        else {
+            stock : {
+                color : 'red'
+            }
+        }
+    }
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.imageContainer}>
@@ -12,7 +23,9 @@ export default Card = ({products}) => {
                 <View style={styles.textsContainer}>
                     <Text style={styles.title}>{products.title}</Text>            
                     <Text style={styles.price}>{products.price}</Text>
-                    <Text style={styles.stock}>{products.inStock}</Text>
+                    <Text style={styles.stock} colorChange >
+                        {products.inStock ?  'Stokta var' : 'Stokta yok'}
+                    </Text>
                 </View>
         </SafeAreaView>
     );
