@@ -4,7 +4,7 @@ export default StyleSheet.create({
     input: {
         backgroundColor : '#eceff1',
         padding : 13,
-        marginVertical : 5,
+        margin : 5,
         borderRadius : 10,
         
     },

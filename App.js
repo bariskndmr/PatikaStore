@@ -10,7 +10,7 @@ export default App = () => {
     <SafeAreaView style={styles.container}>
       <Text style={styles.appTitle}>PATIKASTORE</Text>
       <SearchInput />
-      <FlatList 
+      <FlatList
       data={Products_Data}
       renderItem={productRender}
       numColumns= '2'
@@ -23,13 +23,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    margin: 5
   },
 
   appTitle: {
     fontSize : 35,
     color: 'purple',
     fontWeight : 'bold',
-    marginLeft : 5
+    marginLeft : 10
   }
 });
