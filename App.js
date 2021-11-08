@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { FlatList, SafeAreaView, StyleSheet, Text} from 'react-native';
 import SearchInput from './src/components/input';
 import ProductCard from './src/components/Card';
 import Products_Data from './src/products_data.json';
