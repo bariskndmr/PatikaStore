@@ -1,5 +1,5 @@
 # PatikaStore
-first assignment for react-native course on [Patika](https://app.patika.dev)
+First assignment for React-Native course on [Patika](https://app.patika.dev)
 
 Here images of Application
 
